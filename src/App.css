@@ -1,1 +1,110 @@
 /* Other rules */
+
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  margin: 10px auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+span {
+  margin: auto 10px;
+}
+
+.container {
+  width: 80vw;
+  max-width: 800px;
+  margin: 15px auto;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 5555;
+  display: flex;
+  line-height: 22px;
+  padding: 8px;
+  padding-left: 8%;
+  align-items: center;
+  border-bottom: #ff6d00 1px solid;
+  background-color: #3e1f47;
+  color: white;
+}
+
+.logo {
+  font-size: 40px;
+  margin-right: 20px;
+  color: #ff6d00;
+}
+
+/* Tasks Styles */
+.tasks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed-tasks {
+  background-color: #06d6a0;
+  padding: 10px;
+  width: 48%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.todo {
+  background-color: #d5dfe5;
+  padding: 10px;
+  width: 48%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.addtask {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #023047;
+  margin-left: 20px;
+  border-radius: 8px;
+  color: white;
+  line-height: 20px;
+  font-size: 16px;
+  padding: 5px 35px;
+}
+
+.task-input {
+  min-width: 25vw;
+  padding-left: 10px;
+  border-radius: 8px;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.footer {
+  border-top: lightgray 1px solid;
+  background-color: white;
+  color: #3d405b;
+  width: 100vw;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
