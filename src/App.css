@@ -45,7 +45,7 @@ span {
 .tasks {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .completed-tasks {
@@ -99,11 +99,11 @@ button {
   background-color: white;
   color: #3d405b;
   width: 100vw;
-  height: 3rem;
+  height: 50px;
   text-align: center;
   line-height: 50px;
   font-size: 16px;
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 
