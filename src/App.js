@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     console.log("call only once");
     axios
-      .get("http://localhost:3000/todo/list")
+      .get("https://myvintedapi.herokuapp.com/todo/list")
       .then((res) => {
         console.log(res);
         setTask(res.data);
